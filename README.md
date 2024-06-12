@@ -30,7 +30,9 @@
   <p align="center">
     <strong>Данный бот предназначен для автоматизации боев</strong>
   </p>
-  <img src="./resources/2.png"/>
+  <img height="600" src="./resources/pixel.gif"/>
+  
+  <img height="600" src="./resources/2.png"/>
 
 </div>
 
