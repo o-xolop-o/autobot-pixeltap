@@ -12,9 +12,6 @@
 
   ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
   </a>
-    <a href="https://github.com/o-xolop-o" target="_blank">
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-  </a>
 </div>
 
 
