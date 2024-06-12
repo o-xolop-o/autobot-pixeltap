@@ -28,7 +28,7 @@
   <h1 align="center">Автокликер для игры PixelTap</h1>
   
   <p align="center">
-    <strong>Данный бот предназначен для автоматизации боев</strong>
+    <strong>Данный бот предназначен для автоматизации боев в игре</strong>
   </p>
   <img height="600" src="./resources/pixel.gif"/>
   
