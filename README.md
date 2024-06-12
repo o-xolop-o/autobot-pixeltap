@@ -4,13 +4,19 @@
   <img height="432" width="768" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
 </div>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Arial+Code&size=55&pause=500&color=7b68ee&center=true&random=false&width=1000&height=100&lines=-- xolop --&duration=3500" alt="Typing SVG" /></a>
-
+<div align="center">
+  
+**`scripts? cheats? autobot? crypto? telebot? - I will do!`**
+</div>
 <h2 align="center">Socials</h2>
 
 <div align="center">
   <a href="https://t.me/xolopdev" target="_blank">
 
   ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+  </a>
+    <a href="https://github.com/o-xolop-o" target="_blank">
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
   </a>
 </div>
 
@@ -22,7 +28,7 @@
   <h1 align="center">Автокликер для игры PixelTap</h1>
   
   <p align="center">
-    <strong>Данный бот предназначен для автоматизации боев игры <a href="https://t.me/pixelversexyzbot?start=1132612218">PixelTap</a></strong>
+    <strong>Данный бот предназначен для автоматизации боев</strong>
   </p>
   <img src="./resources/2.png"/>
 
