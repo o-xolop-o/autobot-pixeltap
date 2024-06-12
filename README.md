@@ -5,10 +5,6 @@
 </div>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Arial+Code&size=55&pause=500&color=7b68ee&center=true&random=false&width=1000&height=100&lines=-- xolop --&duration=3500" alt="Typing SVG" /></a>
 
-<div align="center">
-
-**`scripts? cheats? autobot? crypto? telebot? - I will do!`**
-</div>
 <h2 align="center">Socials</h2>
 
 <div align="center">
@@ -29,7 +25,7 @@
   <h1 align="center">Автокликер для игры PixelTap</h1>
   
   <p align="center">
-    <strong>Данный бот предназначен для автоматизации боев</strong>
+    <strong>Данный бот предназначен для автоматизации боев игры <a href="https://t.me/pixelversexyzbot?start=1132612218">PixelTap</a></strong>
   </p>
   <img src="./resources/2.png"/>
 
