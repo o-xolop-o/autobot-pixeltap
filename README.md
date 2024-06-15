@@ -51,12 +51,13 @@ const consoleStyles = {
   red: 'font-weight: bold; color: red;',
   green: 'font-weight: bold; color: green;',
   white: 'font-weight: bold; color: white;',
+  black: 'font-weight: bold; color: black;',
   yellow: 'font-weight: bold; color: yellow;',
-  prefix: '%c [╰┈➤] '
+  prefix: '%c ╰┈➤ '
 };
 const originalConsoleLog = console.log;
 console.log = function (...args) {
-  if (args[0].includes('[╰┈➤]') || args[0].includes('github.com')){
+  if (args[0].includes('╰┈➤') || args[0].includes('github.com')){
     originalConsoleLog.apply(console, args)
 }};
 
@@ -104,12 +105,17 @@ const checkState = async () => {
               minute: '2-digit',
               second: '2-digit',
             }).replace(',', '');
+
+            function getConsoleTextColor() {
+              const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+              return isDarkMode ? consoleStyles.white : consoleStyles.black;
+            }
             
             stats.totalCoins += parseInt(finishCoinsText.replace(/[^\d-]/g, ''), 10);
             
             console.group(`[${timeString}] Game Result`);
             console.log(`${consoleStyles.prefix}${isVictory ? '🎉 Victory' : '💀 Defeat'} (${finishCoinsText})`,isVictory ? consoleStyles.green : consoleStyles.red);
-            console.log(`${consoleStyles.prefix}[${stats.victories} W | ${stats.defeats} L | ${stats.totalCoins >= 0 ? '+' : ''}${stats.totalCoins.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}]`, consoleStyles.yellow);
+            console.log(`${consoleStyles.prefix}${stats.victories} W | ${stats.defeats} L | ${stats.totalCoins >= 0 ? '+' : ''}${stats.totalCoins.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`, getConsoleTextColor());
             console.groupEnd();            
             
             if (playBtn) return (isFinish = false, await sleep(2000), playBtn.click(), await sleep(1000), await checkState());
